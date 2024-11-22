@@ -293,11 +293,7 @@ function App() {
           <Menu />
           <Cart />
           <Routes>
-            <Route
-              index
-              path="ecommerce-react-tailwind"
-              element={<HomePage />}
-            />
+            <Route index path="KS Elects" element={<HomePage />} />
             <Route index path="/" element={<HomePage />} />
             <Route path="/Headphones" element={<HeadPhonePage />} />
             <Route path="/Speakers" element={<SpeakerPage />} />
